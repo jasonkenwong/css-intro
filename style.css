@@ -1,0 +1,30 @@
+header#main-header {
+  background-color:#65146f;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+section.animal {
+  width:400px;
+  margin:auto;
+  text-align:center;
+  border-bottom: 2px;
+  border-bottom-style: groove;
+}
+
+section.animal img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.4);
+  transition: 500ms all;
+}
+
+section.animal img:hover {
+  width:100%;
+}
+  
